@@ -1,3 +1,5 @@
+package cn.parser.test;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,10 +11,18 @@ import java.util.regex.Pattern;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
+import cn.net.utils.JSONFormat;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class GetAllJson {
+/**
+ * @Copyright © 2017 sanbo Inc. All rights reserved.
+ * @Description: parser from net
+ * @Version: 1.0
+ * @Create: 2017年7月14日 下午7:10:17
+ * @author: safei
+ */
+public class NetGetAllJson {
     private static String mBaseURL = "https://raw.githubusercontent.com/googlesupportter/googleapps/master/";
     private static String mAllJson = "all.json";
     private static String mAllFormatJson = "format_all.json";
