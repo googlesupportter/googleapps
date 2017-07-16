@@ -1,6 +1,0 @@
-[submodule "list"]
-	path = list
-	url = git@github.com:googlesupportter/list.git
-[submodule "googleapps"]
-	path = googleapps
-	url = git@github.com:googlesupportter/googleapps.git
